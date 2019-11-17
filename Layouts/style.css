@@ -1,0 +1,37 @@
+nav {
+  position: fixed;
+  margin: 15px;
+  width: 170px;
+  height: 100%;
+  background-color: rgb(236, 188, 133);
+  }
+
+main {
+  position: relative;
+  left: 200px;
+  margin: 15px;
+}
+
+.card {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.card h2 {
+  width: 100%;
+  text-align: center;
+}
+
+.card-recipe {
+  display: flex;
+  flex-flow: row wrap;
+}
+.card-image {
+  flex-basis: 1 1 300px;
+}
+
+.card-list {
+  width: 40%;
+  flex-basis: 1 1 300px;
+  background-color: red;
+}
